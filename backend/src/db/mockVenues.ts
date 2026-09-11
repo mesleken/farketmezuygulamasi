@@ -661,7 +661,7 @@ export const mockVenues: VenueCandidate[] = [
     category: 'spor_outdoor',
     categoryNameTr: 'Trekking & Doğa Yürüyüşü',
     type: 'activity',
-    description: 'Neşet Suyu parkurunda 6 km\\'lik doğa yürüyüşü, göl kenarında dinlenme ve bol oksijen.',
+    description: "Neşet Suyu parkurunda 6 km'lik doğa yürüyüşü, göl kenarında dinlenme ve bol oksijen.",
     address: 'Belgrad Ormanı Neşet Suyu Tabiat Parkı, Sarıyer',
     district: 'Sarıyer',
     city: 'İstanbul',
