@@ -1,0 +1,16 @@
+{
+  "name": "farketmez-app",
+  "version": "1.0.0",
+  "description": "Farketmez - Karar Verme Asistanı",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgMagenta.bold\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
